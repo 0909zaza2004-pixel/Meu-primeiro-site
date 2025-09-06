@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <title>Mostrar imagem / página OGol</title>
+  <meta charset="UTF-8">
+  <title>Olá Mundo com Rolagem</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      line-height: 2;
+      margin: 20px;
+    }
+  </style>
 </head>
 <body>
-  <p>olá mundo</p>
+  <!-- Repete "olá mundo" várias vezes -->
+  <div id="conteudo">
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+    <p>olá mundo</p>
+  </div>
+
+  <script>
+    // Captura a tecla pressionada
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "ArrowDown") {
+        window.scrollBy({ top: 50, behavior: "smooth" }); // desce 50px
+      }
+      if (event.key === "ArrowUp") {
+        window.scrollBy({ top: -50, behavior: "smooth" }); // sobe 50px
+      }
+    });
+  </script>
 </body>
 </html>
-
